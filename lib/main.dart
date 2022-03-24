@@ -81,7 +81,7 @@ Padding(
                 RaisedButton(
                   onPressed: () {
                     if (secret != null && secret.isNotEmpty) {
-                      String secretadd= "sailasdjfklasjdhfljaskldjhflaksj";
+                      String secretadd= "saifjckjfklasjdhfljaskldjhflaksj";
                       final key = encrypt.Key.fromUtf8(secret+secretadd.substring(0,32-secret.length));
                       final iv = encrypt.IV.fromLength(16);
                       debugPrint("entered");
